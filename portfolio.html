@@ -1,0 +1,113 @@
+<html>
+    <head>
+    <title>HTML </title>
+    <!-- <link rel="stylesheet" href="fsd3.1.css"> -->
+     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'poppins',sans-serif;
+
+        }
+        body {
+            background: linear-gradient(135deg,#be1167, #db88b6,#bb4698);
+            color: white;
+            scroll-behavior: smooth;
+           
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px , 8%;
+            position: fixed;width: 100%;
+            top: 0;
+            backdrop-filter: blur(12px);
+            background: rgba(238, 182, 224, 0.6);
+            z-index: 1000;
+            
+        }
+        nav h1{
+            color: black;
+            font-weight: 700;
+        
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+        nav ul li a:hover{
+            color: black;
+        }
+        .anju{
+           height: 100vh;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           gap: 60px;
+           padding: 0.8% 
+        }
+        .picture1{
+            width: 260px;
+            height: 260px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid black;
+            box-shadow:0 0 40px rgba(70, 58, 60, 0.5) ;
+            transition: 0.4s;
+        }
+        .picture1:hover{
+            transform: scale(1.05);
+        }
+        .anju-text h1{
+          font-size: 50px;
+
+        }
+        .anju-text span{
+            color: black;
+        }
+        .anju-text p{
+            margin-top: 15px;
+            font-size: 20px;
+            opacity: 0.8%;
+        }
+    
+     </style>
+</head>
+<body>    
+    <header> 
+    <nav align="right">
+        <h1 align="left" >Mallikanjali.Bijjala</h1>
+        <ul>
+      <li>  <a href="file:///C:/Users/DELL/Desktop/HACKTHON/portabout.html">About</a></li> 
+     <li>  <a href="file:///C:/Users/DELL/Desktop/HACKTHON/portskills.html">Skills</a></li>
+       <li> <a href=" file:///C:/Users/DELL/Desktop/HACKTHON/portcontact.html">Contact</a></li>
+    </ul>
+    </nav> </header>
+    <main>
+           <!-- anju  -->
+            <div class="anju">
+              <img src="amma.jpg.jpeg" class="picture1"  width="250" height="250">
+          <!-- anju-text  -->
+          <div class="anju-text">
+              <h1 >Hello I'M
+                <span>Mallikanjali.Bijjala</span>
+            </h1>
+                <p>Engineering Student</p>
+          </div>
+          </div>
+        </main>
+
+    <footer align="center">
+        &copy; Mallikanjali | My portfolio
+    </footer>
+</body>
+</html>
